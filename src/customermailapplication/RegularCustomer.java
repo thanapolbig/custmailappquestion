@@ -11,7 +11,7 @@ package customermailapplication;
  * @author sarun
  */
 //make this class a subclass of customer
-public class RegularCustomer extends Customer {
+public class RegularCustomer extends Customer { //extends class แม่มาใช้
 
     @Override
     public String createMail() {
